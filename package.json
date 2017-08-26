@@ -1,0 +1,17 @@
+{
+  "name": "invoicer_angular2",
+  "version": "1.0.0",
+  "description": "invoicing app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start" : "node app"
+  },
+  "author": "Keyur",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.8"
+  }
+}
