@@ -22,6 +22,16 @@ export class CustomerService {
         return this.http.post('http://localhost:3000/api/customers', customer, { headers: headers })
             .map(res => res.json());
     }
+    updateCustomer(id,customer) {
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        return this.http.put('http://localhost:3000/api/customers/'+id, customer, { headers: headers })
+            .map(res => res.json());
+    }
+    deleteCustomer(id) {
+        return this.http.delete('http://localhost:3000/api/customers/' + id)
+            .map(res => res.json());
+    }
 
 
 }

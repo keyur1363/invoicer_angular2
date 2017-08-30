@@ -16,7 +16,8 @@ import { AddInvoiceComponent } from './components/add-invoice/add-invoice.compon
 const appRoutes: Routes = [
     { path: '', component: CustomersComponent },
     { path: 'customer/add', component: AddCustomerComponent },
-    { path: 'customer/:id', component: CustomerDetailsComponent }
+    { path: 'customer/:id', component: CustomerDetailsComponent },
+    { path: 'customer/edit/:id', component: EditCustomerComponent }
 ]
 
 
