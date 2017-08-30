@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
 });
 // Get Single Customer
 router.get('/:id', (req, res) => {
-    Customer.getCustomer(req.params.id, (err, customer) => {
+    Customer.getCustomerById(req.params.id, (err, customer) => {
         if (err) {
             console.log(err);
             res.send(err);

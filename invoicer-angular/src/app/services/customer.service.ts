@@ -11,6 +11,11 @@ export class CustomerService {
         return this.http.get('http://localhost:3000/api/customers')
             .map(res => res.json());
     }
+
+    getCustomer(id) {
+        return this.http.get('http://localhost:3000/api/customers/'+id)
+            .map(res => res.json());
+    }
     saveCustomer(customer) {
         let headers = new Headers();
         headers.append('Content-Type', 'application/json');
