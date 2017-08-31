@@ -14,5 +14,29 @@
         <li class="list-group-item"><strong>State: </strong>{{customer.address.state}}</li>
         <li class="list-group-item"><strong>Zipcode: </strong>{{customer.address.zip}}</li>
     </ul>
+    <h4 class="page-header">Invoices</h4>
+    <div class="customers">
+        <table class="table table-striped">
+            <tr>
+                <th>ID</th>
+                <th>Service</th>
+                <th>Price</th>
+                <th>Status</th>
+                <th>Due</th>
+                <th></th>
+            </tr>
+            <tr *ngFor="let invoice of invoices">
+                <td>{{invoice._id}}</td>
+                <td>{{invoice.service}}</td>
+                <td>{{invoice.price}}</td>
+                <td>{{invoice.status}}</td>
+                <td>{{invoice.due}}</td>
+                <td>
+                    <a (click)="markPaid(invoice._id, invoice)" class="btn btn-default">Mark Paid</a>
+                    <a href="" (click)="onDeleteClick(invoice._id)" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        </table>
+    </div>
 
 </div>
