@@ -8,14 +8,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Invoicer</a>
+            <a [routerLink]="['/']"><img class="dash_img"  src="../../../images/dashboard.png"/></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-left">
                 <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']">Dashboard</a></li>
             </ul>
-
+            <a [routerLink]="['/customer/add']"><img src="../../../images/user-add-icon.png" class="addcust_img" /></a>
             <ul class="nav navbar-nav navbar-right">
+                
                 <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/customer/add']">Add New Customer</a></li>
             </ul>
         </div><!--/.nav-collapse -->

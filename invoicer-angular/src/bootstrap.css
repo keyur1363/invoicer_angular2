@@ -1268,7 +1268,13 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 56px;
+      color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 51px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 25px;
+    
 }
 h2,
 .h2 {
@@ -1414,7 +1420,7 @@ a.bg-danger:focus {
 .page-header {
   padding-bottom: 10.5px;
   margin: 46px 0 23px;
-  border-bottom: 1px solid #eeeeee;
+  
 }
 ul,
 ol {
@@ -4609,6 +4615,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #b2dbfb;
+  font-size:18px;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4620,6 +4627,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
   background-color: #0c7cd5;
+  border-radius:20px;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -5249,13 +5257,14 @@ a.thumbnail.active {
   margin-bottom: 20px;
   padding-left: 0;
 }
+
 .list-group-item {
   position: relative;
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  /*border: 1px solid #dddddd;*/
 }
 .list-group-item:first-child {
   border-top-right-radius: 3px;
@@ -6758,6 +6767,9 @@ button.close {
   border: none;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+      border-radius: 18px;
+    width: 1500px;
+    margin-left: 205px;
 }
 .navbar-brand {
   font-size: 24px;
@@ -7673,4 +7685,4 @@ input[type="checkbox"]:disabled:checked:after,
 .carousel-caption h5,
 .carousel-caption h6 {
   color: inherit;
-}
+}   

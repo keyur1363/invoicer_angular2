@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+.cust_img{
+        border: 0;
+    height: 47px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+.addcust_img{
+        height: 55px;
+    margin: 3px 0px 3px 726px;
+}
+.dash_img{
+    height:53px;
+    margin:5px 0 5px 0;
+}
+.username_img{
+    height:55px;
+    margin:-10px 10px 0px 0px;
+
+}
+.coninfo_img{
+        height: 40px;
+    margin: 0px 10px 0 0px;
+}
+.coninfo{
+    float:left;
+        margin: 0 0px 0px 71px;
+}
+.locinfo{
+    float:right;
+    margin:0 555px 0 0;
+}
+.locinfo_img{
+     height: 40px;
+    margin: 0px 10px 0 0px;
+}
+.create_invoice{
+    padding:0 0 0 0;
+}
+.invoice_head{
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #444444;
+    font-size: 26px;
+    margin: 275px 0 21px 80px;
+}
+.invoice_img{
+     height: 40px;
+    margin: 0px 10px 0 0px;
+}
+.inovice_table{
+    margin:0 -15px 0 85px;
+}
+.createin_img{
+ height: 35px;
+    margin: 0px 10px 0 0px;
+}
+#createinvoice_link{
+    padding:0 0 0 696px;
+    font-size:26px;
+    font-weight:400;
+}
+.editcust_img{
+       height:55px;
+    margin:-10px 10px 0px 0px;
+}
+.addinvoice_img{
+height:55px;
+    margin:-10px 10px 0px 0px;
+}
