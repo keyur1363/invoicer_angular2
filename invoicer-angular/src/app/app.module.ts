@@ -17,7 +17,8 @@ const appRoutes: Routes = [
     { path: '', component: CustomersComponent },
     { path: 'customer/add', component: AddCustomerComponent },
     { path: 'customer/:id', component: CustomerDetailsComponent },
-    { path: 'customer/edit/:id', component: EditCustomerComponent }
+    { path: 'customer/edit/:id', component: EditCustomerComponent },
+    { path: 'invoice/add/:customer_id', component: AddInvoiceComponent }
 ]
 
 

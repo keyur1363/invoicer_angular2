@@ -21,7 +21,8 @@ export class CustomerDetailsComponent implements OnInit {
             this.customer = customer;
         });
         this.customerService.getInvoices(this.id).subscribe(invoices => {
-            this.invoices = invoices;
+           this.invoices = invoices;
+           
         });
     
     }

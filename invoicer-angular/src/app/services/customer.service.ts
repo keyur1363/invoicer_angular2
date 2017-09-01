@@ -48,5 +48,11 @@ export class CustomerService {
         return this.http.delete('http://localhost:3000/api/invoices/' + id)
             .map(res => res.json());
     }
+    saveInvoice(invoice) {
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        return this.http.post('http://localhost:3000/api/invoices', invoice, { headers: headers })
+            .map(res => res.json());
+    }
 
 }

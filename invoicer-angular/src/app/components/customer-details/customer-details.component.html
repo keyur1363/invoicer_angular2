@@ -14,7 +14,7 @@
         <li class="list-group-item"><strong>State: </strong>{{customer.address.state}}</li>
         <li class="list-group-item"><strong>Zipcode: </strong>{{customer.address.zip}}</li>
     </ul>
-    <h4 class="page-header">Invoices</h4>
+    <h4 class="page-header">Invoices<a routerLink="/invoice/add/{{customer._id}}">Create Invoice</a></h4>
     <div class="customers">
         <table class="table table-striped">
             <tr>
