@@ -13,6 +13,7 @@ import { EditCustomerComponent } from './components/edit-customer/edit-customer.
 import { CustomerDetailsComponent } from './components/customer-details/customer-details.component';
 import { AddInvoiceComponent } from './components/add-invoice/add-invoice.component';
 
+
 const appRoutes: Routes = [
     { path: '', component: CustomersComponent },
     { path: 'customer/add', component: AddCustomerComponent },

@@ -4599,7 +4599,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #2196f3;
+  /*background-color: #2196f3;*/
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
@@ -4614,12 +4614,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #bbbbbb;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #b2dbfb;
+  color: #65b2ff;
   font-size:18px;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #2117af;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
@@ -6765,9 +6765,9 @@ button.close {
 }
 .navbar {
   border: none;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  /*-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-      border-radius: 18px;
+      border-radius: 18px;*/
     width: 1500px;
     margin-left: 205px;
 }
