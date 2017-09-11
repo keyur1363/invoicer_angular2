@@ -7,11 +7,11 @@
 }
 .addcust_img{
         height: 55px;
-    margin: 3px 0px 3px 726px;
+    margin: 0px 0px 0px 0px;
 }
 .dash_img{
-    height:53px;
-    margin:5px 0 5px 0;
+   height:55px;
+    margin: 0px 0px 0px 622px;
 }
 .username_img{
     height:55px;
@@ -73,6 +73,29 @@ height:55px;
 height:55px;
     margin:-10px 10px 0px 0px;
 }
-.invoice_logo{
-    margin:10px 835px 10px 835px;
+
+.invoice_logo_homepage{
+    margin:160px 420px 15px 420px;
+}
+.h_s_btn{
+    padding: 10px 66px;
+    font-size: 17px;
+    line-height: 1.3333333;
+    border-radius: 3px;
+    margin-left:350px;
+}
+.page-header label{
+       color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 51px;
+    font-weight: normal;
+    line-height: 48px;
+}
+.addcust_link{
+     color: #65b2ff;
+  font-size:18px;
+}
+.addcust_img{
+    height:55px;
+    margin: 0px 0px 0px 642px;
 }

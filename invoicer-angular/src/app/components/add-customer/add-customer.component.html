@@ -1,6 +1,10 @@
+<div class="page-header">
+    <label><img src="../../../images/user-add-icon.png" class="addcustomer_img" />Add Customer</label>
+    <a [routerLink]="['/customer']"><img class="dash_img" src="../../../images/dashboard.png" /></a>
+    <a [routerLink]="['/customer']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" class="addcust_link">Dashboard</a>
+</div>
 
 
-<h1 class="page-header"><img src="../../../images/user-add-icon.png" class="addcustomer_img" />Add Customer</h1>
 <form (submit)="onAddSubmit()" class="well">
     <div class="form-group">
         <label>First Name</label>

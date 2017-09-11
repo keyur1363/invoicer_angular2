@@ -1,6 +1,12 @@
 <div *ngIf="customer">
+
+    <div class="page-header">
+        <label><img src="../../../images/username.png" class="username_img" />{{customer.first_name}} {{customer.last_name}}</label>
+        <a [routerLink]="['/customer']"><img class="dash_img" src="../../../images/dashboard.png" /></a>
+        <a [routerLink]="['/customer']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" class="addcust_link">Dashboard</a>
+    </div>
     
-    <h1 class="page-header"><img src="../../../images/username.png" class="username_img"/>{{customer.first_name}} {{customer.last_name}}</h1>
+   
     <div class="coninfo">
         <h4><img src="../../../images/contactinfo.png" class="coninfo_img" />Contact Info</h4>
         <ul class="list-group">

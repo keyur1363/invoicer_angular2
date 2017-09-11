@@ -12,10 +12,12 @@ import { AddCustomerComponent } from './components/add-customer/add-customer.com
 import { EditCustomerComponent } from './components/edit-customer/edit-customer.component';
 import { CustomerDetailsComponent } from './components/customer-details/customer-details.component';
 import { AddInvoiceComponent } from './components/add-invoice/add-invoice.component';
+import { HomepageLoginComponent } from './components/homepage-login/homepage-login.component';
 
 
 const appRoutes: Routes = [
-    { path: '', component: CustomersComponent },
+    { path: '', component: HomepageLoginComponent },
+    { path: 'customer', component: CustomersComponent },
     { path: 'customer/add', component: AddCustomerComponent },
     { path: 'customer/:id', component: CustomerDetailsComponent },
     { path: 'customer/edit/:id', component: EditCustomerComponent },
@@ -31,7 +33,8 @@ const appRoutes: Routes = [
     AddCustomerComponent,
     EditCustomerComponent,
     CustomerDetailsComponent,
-    AddInvoiceComponent
+    AddInvoiceComponent,
+    HomepageLoginComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

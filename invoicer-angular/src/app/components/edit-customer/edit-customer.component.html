@@ -1,4 +1,9 @@
-<h1 class="page-header"><img src="../../../images/edituseer.ico" class="editcust_img"/>Edit Customer</h1>
+<div class="page-header">
+    <label><img src="../../../images/edituseer.ico" class="editcust_img" />Edit Customer</label>
+    <a [routerLink]="['/customer']"><img class="dash_img" src="../../../images/dashboard.png" /></a>
+    <a [routerLink]="['/customer']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" class="addcust_link">Dashboard</a>
+</div>
+
 <form (submit)="onEditSubmit()" class="well">
     <div class="form-group">
         <label>First Name</label>
